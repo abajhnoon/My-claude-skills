@@ -44,6 +44,27 @@ Download the ZIP files in [`dist/`](dist/), then for each one: **Customize → S
 
 The skills that download code at first use need, in Claude's own environment: access to `github.com`, `git`, Python 3 (`ui-ux-pro-max`) and Node.js (`hairline-create`). Claude's standard environment has all of them. `hairline-create` installs `playwright-core` once, into a cache folder, to photograph the figure it draws.
 
+## Anthropic skills used alongside (not in this repository)
+
+These are Anthropic's own skills, enabled on the same account. They are not copied here: they come with Claude, and anyone can turn them on from **Customize → Skills**.
+
+| Skill | What it does |
+|---|---|
+| `docx` | Create, read and edit Word documents |
+| `xlsx` | Create, read and edit Excel spreadsheets |
+| `pptx` | Create, read and edit PowerPoint decks |
+| `pdf` | Read, create, merge, split and fill PDF files |
+| `docs` | Editable shared documents inside Claude |
+| `canvas-design` | Posters and visual art as PNG or PDF |
+| `deep-research` | Multi-source research into a written report |
+| `skill-creator` | Create, improve and test skills |
+| `google-workspace` | Create and edit Google Docs, Sheets and Slides |
+| `morning` | A morning brief, once or on a schedule |
+| `import-memory` | Import a memory export from another AI assistant |
+| `computer-use` | Operate apps on the user's computer |
+| `built-in-browser` | Use the browser pane in the Claude desktop app |
+| `chrome-browser` | Use Claude in Chrome |
+
 ## Instructions for Claude
 
 When a user gives you this repository and asks to install its skills:
@@ -88,3 +109,25 @@ npx skills add abajhnoon/My-claude-skills -g
 
 **الطريقة الثالثة:** حمّل ملفات `ZIP` من مجلد `dist`، وارفع كل ملف من:
 `Customize → Skills → + → Create skill → Upload a skill`
+
+## مهارات Anthropic المستخدمة معها، وليست في المستودع
+
+هذي مهارات Anthropic نفسها، مفعّلة في نفس الحساب. ما نسختها هنا لأنها تجي مع Claude، وأي أحد يقدر يفعّلها من:
+`Customize → Skills`
+
+| المهارة | وظيفتها |
+|---|---|
+| `docx` | إنشاء ملفات Word وقراءتها وتعديلها |
+| `xlsx` | إنشاء جداول Excel وقراءتها وتعديلها |
+| `pptx` | إنشاء عروض PowerPoint وقراءتها وتعديلها |
+| `pdf` | قراءة ملفات PDF وإنشاؤها ودمجها وتقسيمها وتعبئتها |
+| `docs` | مستندات قابلة للتعديل والمشاركة داخل Claude |
+| `canvas-design` | ملصقات وأعمال فنية بصيغة PNG أو PDF |
+| `deep-research` | بحث من مصادر متعددة في تقرير مكتوب |
+| `skill-creator` | إنشاء المهارات وتحسينها واختبارها |
+| `google-workspace` | إنشاء ملفات Google Docs وSheets وSlides وتعديلها |
+| `morning` | ملخص صباحي، مرة وحدة أو بشكل مجدول |
+| `import-memory` | استيراد ذاكرة من مساعد ذكاء اصطناعي آخر |
+| `computer-use` | التحكم بالبرامج على جهاز المستخدم |
+| `built-in-browser` | استخدام المتصفح المدمج في تطبيق Claude |
+| `chrome-browser` | استخدام Claude في متصفح Chrome |
